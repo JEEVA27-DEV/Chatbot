@@ -1,0 +1,34 @@
+.navbar {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+  max-width: 600px;
+
+  height: 60px;
+
+  background-color: rgb(18, 184, 98);
+  color: white;
+
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding: 0 20px;
+
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+
+  z-index: 1000;
+}
+
+.navbar-title {
+  flex-grow: 1;
+}
+
+.navbar-status {
+  font-size: 14px;
+  opacity: 0.9;
+}
