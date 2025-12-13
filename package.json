@@ -1,5 +1,5 @@
 {
-  "homepage": "https://JEEVA27-DEV.github.io/Chatbot",
+  "homepage": "https://jeeva27-dev.github.io/Chatbot",
   "name": "chatbot-project",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "react": "^18.3.1",
